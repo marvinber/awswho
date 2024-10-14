@@ -11,8 +11,6 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/sts"
 )
 
-// TODO: Upload to github
-// TODO: Write a build script that call go build and copies this program to a folder which is in $PATH
 func main() {
 	// Load the default AWS configuration from the environment (e.g., ~/.aws/config, ~/.aws/credentials)
 	cfg, err := config.LoadDefaultConfig(context.TODO())
